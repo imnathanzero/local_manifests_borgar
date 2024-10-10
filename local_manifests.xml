@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="P-Salik" fetch="https://github.com/P-Salik" clone-depth="1" />
+    <remote name="ArrowOS" fetch="https://github.com/ArrowOS" clone-depth="1" />
+    <remote name="imnathanzero" fetch="https://github.com/imnathanzero" clone-depth="1" />
+    <remote name="tejas101k" fetch="https://gitlab.com/tejas101k" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="ArrowOS" revision="arrow-13.0" />
+    <project path="device/realme/RMX1941" name="android_device_realme_RMX1941" remote="imnathanzero" revision="crdroid" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/realme/RMX1941" name="android_kernel_realme_RMX1941" remote="P-Salik" revision="Q-rebase" />
+
+    <!-- Vendor -->
+    <project path="vendor/realme/RMX1941-ims" name="android_vendor_realme_RMX1941-ims" remote="P-Salik" revision="lineage-20" />
+    <project path="vendor/realme/RMX1941" name="android_vendor_realme_RMX1941" remote="P-Salik" revision="tiramsu" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Other Repos -->
+    <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="tejas101k" revision="master" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-7.5" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-gnu-7.5" remote="P-Salik" revision="master" />
+    <project path="prebuilts/clang/host/linux-x86/clang-r353983c" name="android_prebuilts_clang_host_linux-x86_clang-5484270" remote="P-Salik" revision="9.0.3" />
+
+</manifest>
